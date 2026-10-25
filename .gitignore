@@ -1,0 +1,13 @@
+# 문서, 로컬 설정 (public repo에 올리지 않음)
+/docs/
+/.claude/
+/.vscode/
+
+# 아직 push하지 않음 (사용자 지시, 2026-10-25)
+/playground/
+
+# 임시 파일, 실행 근거, 캐시 (.vscode files.exclude로 숨긴 폴더 포함)
+/.temp/
+/.bot/
+.ruff_cache/
+__pycache__/

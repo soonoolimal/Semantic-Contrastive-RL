@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+cache-dir = ".temp/.ruff_cache"  # Keep every .ruff_cache in .temp/
+extend-exclude = ["dexjoco"]  # Do not lint or format it: dexjoco/ is upstream and is not modified
+force-exclude = true  # Apply the exclusion even when the editor passes a file path directly
