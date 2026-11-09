@@ -1,3 +1,12 @@
 [submodule "dexjoco"]
 	path = dexjoco
 	url = https://github.com/brave-eai/dexjoco.git
+[submodule "robocasa"]
+	path = robocasa
+	url = https://github.com/robocasa/robocasa
+[submodule "robosuite"]
+	path = robosuite
+	url = https://github.com/ARISE-Initiative/robosuite
+[submodule "Isaac-GR00T"]
+	path = Isaac-GR00T
+	url = https://github.com/robocasa-benchmark/Isaac-GR00T
