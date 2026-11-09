@@ -1,13 +1,28 @@
-# 문서, 로컬 설정 (public repo에 올리지 않음)
-/docs/
-/.claude/
-/.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
 
-# 아직 push하지 않음 (사용자 지시, 2026-10-25)
-/playground/
+.venv/
+.env
+.env.*
 
-# 임시 파일, 실행 근거, 캐시 (.vscode files.exclude로 숨긴 폴더 포함)
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+.claude/
+.codex/
+.agents/
+AGENTS.md
+
 /.temp/
 /.bot/
-.ruff_cache/
-__pycache__/
+
+/.agent/
+/research/
+/playground/
