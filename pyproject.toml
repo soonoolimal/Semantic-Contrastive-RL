@@ -7,6 +7,10 @@ extend-exclude = [
     "./robocasa",
     "./robosuite",
     "./Isaac-GR00T",
+    "./google-research",
+    "./contrastive_rl",
+    "./JaxGCRL",
+    "./stable_contrastive_rl",
 ]  # Upstream code: Never lint or format.
 force-exclude = true  # Enforce exclude patterns even for explicitly passed paths.
 

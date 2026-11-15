@@ -10,3 +10,13 @@
 [submodule "Isaac-GR00T"]
 	path = Isaac-GR00T
 	url = https://github.com/robocasa-benchmark/Isaac-GR00T
+[submodule "google-research"]
+	path = google-research
+	url = https://github.com/google-research/google-research.git
+	shallow = true
+[submodule "JaxGCRL"]
+	path = JaxGCRL
+	url = https://github.com/MichalBortkiewicz/JaxGCRL.git
+[submodule "stable_contrastive_rl"]
+	path = stable_contrastive_rl
+	url = https://github.com/chongyi-zheng/stable_contrastive_rl.git
